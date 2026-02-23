@@ -55,7 +55,7 @@ ON order_items(product_id);
 -- Why?
 -- Useful for filtering products by category.
 -- Example: WHERE category = 'Electronics'
--- ----------------------------------------------------------
+-- -----------------------------------------------------------
 
 CREATE INDEX idx_products_category
 ON products(category);
