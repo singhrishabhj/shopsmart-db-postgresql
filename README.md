@@ -159,6 +159,21 @@ This project demonstrates:
 
 ---
 
+## Project Summary
+
+ShopSmart DB is a PostgreSQL-based e-commerce backend simulation designed to demonstrate strong database engineering fundamentals with an SDET mindset.
+
+The system models four core entities: users, products, orders, and order_items, with proper normalization and relational integrity using primary and foreign keys.
+
+The project emphasizes:
+
+- Strict data validation through CHECK, UNIQUE, and referential constraints  
+- Business-focused SQL queries including revenue reporting, analytics, and multi-table JOIN operations  
+- QA-oriented validation queries to detect inconsistencies such as incorrect order totals, duplicate data, and orphan records  
+- Performance optimization using indexing and query plan analysis with EXPLAIN ANALYZE  
+
+The goal of this project was not just to build tables, but to design a reliable, testable, and performance-aware database system similar to what would be used in a production environment.
+
 ## Author
 
 Rishabh Singh  
